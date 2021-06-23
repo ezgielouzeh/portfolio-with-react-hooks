@@ -1,8 +1,9 @@
+const { default: Topbar } = require("./components/topbar/Topbar");
 
 function App() {
   return (
     <div className="app">
-    Hello
+    <Topbar />
     </div>
   );
 }
