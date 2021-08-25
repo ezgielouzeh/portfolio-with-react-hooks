@@ -23,13 +23,14 @@
     padding: 0.7em;
     border-radius: 10px;
     cursor: pointer;
-  }
 
-  &.active{
-    background-color: $mainColor;
-    color: white;
+    &.active{
+      background-color: $mainColor;
+      color: white;
+    }
   }
 }
+
 
 .container{
   width: 70%;
